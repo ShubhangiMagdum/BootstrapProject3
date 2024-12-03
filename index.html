@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaira-Faction Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="Asset/CSS/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+ 
+    </head>
+<body>
+  
+    
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center dis">
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-center w-100">
+                    <div class="col-auto">
+              <a class="navbar-brand logo" href="index.html">KAIRA</a>
+                    </div>
+              <div class="col-auto">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          HOME
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">HOME LAYOUT 1</a></li>
+                          <li><a class="dropdown-item" href="#">HOME LAYOUT 2</a></li>
+                          <li><a class="dropdown-item" href="#">HOME LAYOUT 3</a></li>
+                          <li><a class="dropdown-item" href="#">HOME LAYOUT 4</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Shop Sidebar </a></li>
+                          <li><a class="dropdown-item" href="#">Shop Three Column </a></li>
+                          <li><a class="dropdown-item" href="#">Shop Three Column Wide </a></li>
+                          <li><a class="dropdown-item" href="#">Shop Four Column</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Four Column Wide</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Six Column</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Six Column Wide</a></li>
+                          <li><a class="dropdown-item" href="#">Single Product</a></li>
+                          <li><a class="dropdown-item" href="#">Single Product V2</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Blog Classic </a></li>
+                        <li><a class="dropdown-item" href="#">Blog Grid with Sidebar  </a></li>
+                        <li><a class="dropdown-item" href="#">Blog Grid Four Column  </a></li>
+                        <li><a class="dropdown-item" href="#">Blog No Sidebar </a></li>
+                        <li><a class="dropdown-item" href="#">Blog Right Sidebar </a></li>
+                        <li><a class="dropdown-item" href="#">Single Post </a></li>
+                        <li><a class="dropdown-item" href="#">Single Post No Sidebar </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About </a></li>
+                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">Error Page</a></li>
+                        <li><a class="dropdown-item" href="#">FAQs</a></li>
+                        <li><a class="dropdown-item" href="#">My Account</a></li>
+                        <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+                        <li><a class="dropdown-item" href="#">Wishlist </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-3 col-lg-auto">
+            <ul class="list-unstyled d-flex m-0">
+                <li class="d-none d-lg-block"><a href="index.html" class="text-uppercase mx-3 text-decoration-none">Wishlist <span class="wishlist-count">(0)</span></a></li>
+                <li class="d-none d-lg-block"><a href="index.html" class="text-uppercase mx-3 text-decoration-none">Cart <span class="cart-count">(0)</span></a></li>
+                <li class="d-lg-none">
+                    <a href="#" class="mx-2">
+                      <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="#heart"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="d-lg-none">
+                    <a href="#" class="mx-2">
+                      <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="#cart"></use>
+                      </svg>
+                    </a>
+                  </li>
+                <li class="search-box" class="mx-2">
+                    <a href="#search" class="search-button">
+                      <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="#search"></use>
+                      </svg>
+                    </a>
+                  </li>
+                
+            </ul>
+            </div>
+              </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="icon" style="text-align: end;">
+            <i class=" bi bi-list fs-1"></i>
+        </div>
+    </div>
+
+
+    <!--Section 1-->
+    <section class="bg-light py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h1 class="fswidth text-center mt-4">New Collections</h1>
+            <div class="col-md-6 text-center">
+              <p class="ocity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas ut dolorum consequuntur, adipisci
+                repellat! Eveniet commodi voluptatem voluptate, eum minima, in suscipit explicabo voluptatibus harum,
+                quibusdam ex repellat eaque!</p>
+            </div>
+          </div>
+
+<div class="row">
+<div class="col-lg-4 col-md-6">
+        <a href="#">
+          <img src="Asset/Image/banner-image-1.jpg" alt="product" class="img-fluid">
+        </a>
+      <div class="py-4">
+        <h5 class="text-uppercase">
+          <a href="index.html">Soft leather jackets</a>
+        </h5>
+        <p class="ocity">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+        <div class="btn-left">
+          <a href="#" class="fs-6 text-uppercase text-decoration-underline">Discover Now</a>
+        </div>
+      </div>
+
+</div>
+<div class="col-lg-4 col-md-6">
+        <a href="#">
+          <img src="Asset/Image/banner-image-2.jpg" alt="product" class="img-fluid">
+        </a>
+      <div class="py-4">
+        <h5 class="text-uppercase">
+          <a href="index.html">Soft leather jackets</a>
+        </h5>
+        <p class="ocity">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+        <div class="btn-left">
+          <a href="#" class="fs-6 text-uppercase text-decoration-underline">Discover Now</a>
+        </div>
+      </div>
+
+</div>
+<div class="col-lg-4 col-md-6">
+        <a href="#">
+          <img src="Asset/Image/banner-image-3.jpg" alt="product" class="img-fluid">
+        </a>
+      
+      <div class="py-4">
+        <h5 class="text-uppercase">
+          <a href="index.html">Soft leather jackets</a>
+        </h5>
+        <p class="ocity">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+        <div class="btn-left">
+          <a href="#" class="fs-6 text-uppercase text-decoration-underline">Discover Now</a>
+        </div>
+      </div>
+</div>
+</div>      
+        </div>
+      </section>
+
+      <!--book an appointment-->
+<div class="container">
+  <div class="row py-5">
+    <div class="col-lg-3 col-md-6 text-center">
+      <i  class="bi bi-calendar2 imgicon"></i> 
+      <h4>Book An <br> Appointment</h4>
+      <p class="ocity">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <i class="bi bi-bag imgicon"></i>
+      <h4>Pick up in store</h4>
+      <p class="ocity">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <i class="bi bi-gift imgicon"></i>
+      <h4>Special packaging</h4>
+      <p class="ocity">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <i class="bi bi-arrow-clockwise imgicon"></i>
+      <h4>free global <br> returns</h4>
+      <p class="ocity">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Shop Images-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/cat-item1.jpg" alt="" class="img-fluid">
+     <p class="p-2 text-uppercase opacity-50"> <a href="btn btn-common ">Shop for men</a></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/cat-item2.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase opacity-50"> <a href="btn btn-common ">Shop for women</a></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/cat-item3.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase opacity-50"> <a href="btn btn-common ">Shop accessories</a></p>
+    </div>
+
+  </div>
+</div>
+
+<!--our new apprival-->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-8">
+      <h3 class="text-uppercase">Our New Arrivals</h3>
+    </div>
+    <div class="col-lg-4">
+      <p class="text-end text-decoration-underline"><a href="#">View All Products</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-1.jpg" alt="" class="img-fluid">
+     <p class="p-2 text-uppercase">Dark florish onepiece <br> $ 95.00</p>
+   
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-2.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Baggy Shirt <br> $ 55.00</p>
+    </div>
+    <div class="col-lg-4 col-md-6"> 
+      <img src="Asset/Image/product-item-3.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Cotton off-white shirt<br> $ 50.00</p>
+    </div>
+  </div>
+</div>
+
+<!--clasic winter collection-->
+<div class="bg-light">
+  <div class="container">
+    <div class="row d-flex py-5">
+      <div class="col-lg-6 col-md-6 p-0">
+        <img src="Asset/Image/single-image-2.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-6 col-md-6 bg-white">
+        <div class="collection-content p-5 m-0 m-md-5">
+        <h3 class="fs-1">Classic winter collection</h3>
+        <p class="ocity">Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci, fringilla a. Ac sed eu
+          fringilla odio mi. Consequat pharetra at magna imperdiet cursus ac faucibus sit libero. Ultricies quam
+          nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor id in. Pulvinar commodo mollis
+          diam sed facilisis at cursus imperdiet cursus ac faucibus sit faucibus sit libero.</p>
+     <a href="#" class="btn btn-dark text-uppercase mt-3">Shop Collection</a>
+    </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!--best selling items-->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-8">
+      <h3 class="text-uppercase">Best Selling Items</h3>
+    </div>
+    <div class="col-lg-4">
+      <p class="text-end text-decoration-underline"><a href="#">View All Products</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-4.jpg" alt="" class="img-fluid">
+     <p class="p-2 text-uppercase">Dark florish onepiece <br> $ 95.00</p>
+   
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-3.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Baggy Shirt <br> $ 55.00</p>
+    </div>
+    <div class="col-lg-4 col-md-6"> 
+      <img src="Asset/Image/product-item-10.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Cotton off-white shirt<br> $ 50.00</p>
+    </div>
+  </div>
+</div>
+
+
+<!--video Images-->
+<div class="container-fluid">
+  <div class="row">
+    <img src="Asset/Image/video-image.jpg" alt="" class="img-fluid">
+  </div>
+</div>
+
+
+<!--testmonials-->
+<div class=" py-5" style="background-color: #e9ecef;"> 
+  <div class="row text-center">
+    <div class="col-lg-12 text-center">
+    <h3 class="fs-5 mt-5">WE LOVE GOOD COMPLIMENT</h3>
+<div class=" badge text-wrap"  style="width: 42%;">
+    <p class="fs-1 text-center text-black opacity-25 lh-base">“More than expected crazy soft, flexible and best fitted white simple denim shirt.”</p>
+  <p class="text-black opacity-25 fs-5 ">casual way</p>
+</div>
+</div>
+  </div>
+</div>
+
+<!--you may also like-->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-8">
+      <h3 class="text-uppercase mb-3">You may also like</h3>
+    </div>
+    <div class="col-lg-4">
+      <p class="text-end text-decoration-underline"><a href="#">View All Products</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-6.jpg" alt="" class="img-fluid">
+     <p class="p-2 text-uppercase">Dark florish onepiece <br> $ 95.00</p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/product-item-9.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Baggy Shirt <br> $ 55.00</p>
+    </div>
+    <div class="col-lg-4 col-md-6"> 
+      <img src="Asset/Image/product-item-5.jpg" alt="" class="img-fluid">
+      <p class="p-2 text-uppercase">Cotton off-white shirt<br> $ 50.00</p>
+    </div>
+  </div>
+</div>
+
+
+<!--read blog post  -->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-8">
+      <h3 class="text-uppercase mb-3">read blog post</h3>
+    </div>
+    <div class="col-lg-4">
+      <p class="text-end text-decoration-underline"><a href="#">View All</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/post-image1.jpg" alt="" class="img-fluid">
+      <p class="ocity my-3">Fashion / jul 11, 2022</p>
+     <h3 class="text-uppercase fs-4">How to look outstanding in pastel</h3>
+     <p class="ocity">Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...</p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <img src="Asset/Image/post-image2.jpg" alt="" class="img-fluid">
+      <p class="ocity my-3">Fashion / jul 11, 2022</p>
+      <h3 class="text-uppercase fs-4">Crazy fashion with unique moment</h3>
+      <p class="ocity">Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel tellus....</p>
+     
+    </div>
+    <div class="col-lg-4 col-md-6"> 
+      <img src="Asset/Image/post-image3.jpg" alt="" class="img-fluid">
+      <p class="ocity my-3">Fashion / jul 11, 2022</p>
+     <h3 class="text-uppercase fs-4">Top 10 fashion trend for summer</h3>
+     <p class="ocity">Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel tellus...</p>
+    
+    </div>
+  </div>
+</div>
+
+
+<!--logo Images-->
+<div class="container">
+  <div class="row py-5 my-5">
+    <div class="d-flex justify-content-between">
+      <img src="Asset/Image/logo1.png" alt="logo" class="img-fluid">
+      <img src="Asset/Image/logo2.png" alt="logo" class="img-fluid">
+      <img src="Asset/Image/logo3.png" alt="logo" class="img-fluid">
+      <img src="Asset/Image/logo4.png" alt="logo" class="img-fluid">
+      <img src="Asset/Image/logo5.png" alt="logo" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!--newsletter-->
+<div style="background: url(Asset/Image/pattern-bg.png) no-repeat;opacity: 25;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 py-5 my-5">
+<h3 class="text-uppercase fs-1">Sign Up for our newsletter</h3>
+
+<form action="" class="d-flex flex-wrap gap-2">
+  <input type="text" name="email" placeholder="Your mail Address" class="form-control">
+  <button class="btn btn-dark text-uppercase w-100">Sign Up</button>
+</form>
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="row g-0">
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item1.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item2.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item3.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item4.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item5.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-mg-2">
+        <img src="Asset/Image/insta-item6.jpg" alt="" class="img-fluid">
+      </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <a href="#" class="btn btn-dark px-5">Follow us on Instagram</a>
+
+  </div>
+</div>
+
+
+<!--footer-->
+<div class="container">
+  <div class="row d-flex flex-wrap justify-content-between py-5 mt-5">
+    <div class="col-lg-3 col-md-3">
+      <a href="#"><img src="Asset/Image/main-logo.png" alt="" class="img-fluid mb-4"></a>
+      <p class="ocity">Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam in. Nisi, purus
+        vitae, ultrices nunc. Sit ac sit suscipit hendrerit.</p>
+        <ul class="d-flex list-unstyled">
+          <li class="p-2"><a href="#"><i class="bi bi-facebook facicon"></i></a></li>
+          <li class="p-2"><a href="#"><i class="bi bi-twitter facicon"></i></a></li>
+          <li class="p-2"><a href="#"><i class="bi bi-instagram facicon"></i></a></li>
+          <li class="p-2"><a href="#"><i class="bi bi-linkedin facicon"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <h5 class="text-uppercase mb-4">Quick Links</h5>
+      <ul class="list-unstyled text-uppercase">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Single item</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <h5 class="text-uppercase mb-4">help & Info</h5>
+      <ul class="list-unstyled text-uppercase">
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Returns + Exchanges</a></li>
+        <li><a href="#">Shipping + Delivery</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Find us easy</a></li>
+        <li><a href="#">Faqs</a></li>
+        
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <h5 class="text-uppercase mb-4">Contact Us</h5>
+      <p class="ocity">Do you have any questions or suggestions? 
+        <a href="#">contact@yourcompany.com</a>
+      </p>
+
+      <p class="ocity">Do you need support? Give us a call. 
+        <a href="#">+43 720 11 52 78</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!--footer copyright-->
+<div class="brder-top py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 d-flex flex-wrap">
+        <div><span>We ship with:</span>
+        <img src="Asset/Image/arct-icon.png" alt="" class="img-fluid">
+      <img src="Asset/Image/dhl-logo.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="">
+        Payment Option:
+        <img src="Asset/Image/visa-card.png" alt="" class="img-fluid">
+        <img src="Asset/Image/paypal-card.png" alt="" class="img-fluid">
+        <img src="Asset/Image/master-card.png" alt="" class="img-fluid">
+      </div>
+      </div>
+      <div class="col-lg-6 col-md-6 text-end">
+        <p class="ocity">© Copyright 2022 Kaira. All rights reserved. Design by <a href="">TemplatesJungle</a> Distribution By <a href="">ThemeWagon</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+
+ 
+</body>
+</html>
